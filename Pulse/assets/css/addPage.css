@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  min-height: 93px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  position: absolute;
+  z-index: 1px;
+}
+nav .pulse {
+  width: 90%;
+}
+nav .pulse .pulseLogo {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  color: #fff;
+}
+nav .pulse .pulseLogo span {
+  color: #ffc515;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+}
+nav .pulse .pulseList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 4px;
+}
+nav .pulse .pulseList .search {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #ffc515;
+  background-color: transparent;
+  border-radius: 15px;
+  min-width: 20%;
+}
+nav .pulse .pulseList .search input {
+  background-color: transparent;
+  border: none;
+}
+nav .pulse .pulseList .search button {
+  border: none;
+  background-color: transparent;
+}
+nav .pulse .pulseList .search button i {
+  color: #fff;
+}
+nav .pulse .pulseList li .home {
+  color: #ffc515 !important;
+}
+nav .pulse .pulseList li a {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff !important;
+  transition: 0.5s ease;
+}
+nav .pulse .pulseList li a:hover {
+  color: #ffc515;
+}
+nav .pulse .pulseList li a i {
+  transition: 0.5s ease;
+}
+nav .pulse .pulseList li a i:hover {
+  color: #ffc515;
+}
+nav .pulse .pulseList .reservations {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+nav .pulse .pulseList .reservations li a {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ffc515 !important;
+}
+nav .pulse .pulseList .reservations li a span {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff !important;
+}
+nav .pulse .pulseList .reservations li a i {
+  color: #fff;
+}
+
+#contactUs {
+  min-height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/footer-bg.jpg);
+}
+#contactUs form {
+  background-color: white;
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+#contactUs form .contactUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contactUs form .contactUs i {
+  font-size: 65px;
+  color: #7c7a77;
+}
+#contactUs form .contactUs .testimonialsLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#contactUs form .contactUs .testimonialsLine .line {
+  max-width: 350px;
+  height: 1px;
+  background-color: #ffc515;
+}
+#contactUs form .contactUs .testimonialsLine h3 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 44px;
+  font-weight: 600 !important;
+  color: #1b1a1a;
+  line-height: 58px;
+}
+#contactUs form input {
+  border: none;
+  background-color: #EFF4F6;
+  margin-left: 10px;
+}
+#contactUs form input::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+}
+#contactUs form textarea {
+  border: none;
+  background-color: #EFF4F6;
+  margin-left: 10px;
+}
+#contactUs form textarea::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+}
+#contactUs form button {
+  width: 20%;
+  min-height: 67px;
+  background-color: #ffc515;
+  color: #1b1a1a;
+  border: none;
+  font-weight: 700;
+}
+#contactUs .copyright {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contactUs .copyright p {
+  font-size: 14px;
+  color: #777;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 500;
+}
+#contactUs .copyright p span {
+  color: #0e6cd1;
+  transition: 0.5s ease;
+}
+#contactUs .copyright p span:hover {
+  color: #0056b3;
+}
+
+#addPageProducts {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+#addPageProducts .miniDiv {
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#addPageProducts .miniDiv img {
+  width: 80%;
+  border-radius: 15px;
+}
+#addPageProducts .miniDiv h2 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 20px;
+  font-weight: 600 !important;
+  color: #fff;
+  line-height: 24px;
+}
+#addPageProducts .miniDiv button {
+  color: #ffc515;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 430px) {
+  form button {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #contactUs {
+    flex-wrap: wrap;
+  }
+}

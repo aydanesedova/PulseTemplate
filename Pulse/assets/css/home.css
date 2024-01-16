@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  min-height: 93px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #7c7a77;
+  border-top: 1px solid #7c7a77;
+  justify-content: center;
+  background-color: transparent !important;
+  position: absolute;
+  z-index: 1px;
+  position: fixed !important;
+}
+nav .pulse {
+  width: 90%;
+}
+nav .pulse .pulseLogo {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  color: #fff;
+}
+nav .pulse .pulseLogo span {
+  color: #ffc515;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+}
+nav .pulse .pulseList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+nav .pulse .pulseList li .home {
+  color: #ffc515 !important;
+}
+nav .pulse .pulseList li a {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff !important;
+  transition: 0.5s ease;
+}
+nav .pulse .pulseList li a:hover {
+  color: #ffc515;
+}
+nav .pulse .pulseList li a i {
+  transition: 0.5s ease;
+}
+nav .pulse .pulseList li a i:hover {
+  color: #ffc515;
+}
+nav .pulse .pulseList .reservations {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+nav .pulse .pulseList .reservations li a {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ffc515 !important;
+}
+nav .pulse .pulseList .reservations li a span {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff !important;
+}
+nav .pulse .pulseList .reservations li a i {
+  color: #fff;
+}
+
+#foodAndMore {
+  min-height: 893px;
+  width: 100%;
+  background-image: url(/assets/images/slider-1\(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#foodAndMore .foodAndMoreTxt {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+}
+#foodAndMore .foodAndMoreTxt h2 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 110px;
+  line-height: 110px;
+  font-weight: 600;
+  color: #fff;
+}
+#foodAndMore .foodAndMoreTxt h2 span {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 110px;
+  line-height: 110px;
+  font-weight: 700;
+  color: #ffc515;
+}
+#foodAndMore .foodAndMoreTxt span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 825px) {
+  #foodAndMore .foodAndMoreTxt h2 {
+    font-size: 30px;
+  }
+  #foodAndMore .foodAndMoreTxt h2 span {
+    font-size: 30px;
+  }
+  #foodAndMore .foodAndMoreTxt span {
+    font-size: 10px;
+  }
+}
+#welcome {
+  min-height: 746px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#welcome .welcomeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 270px;
+}
+#welcome .welcomeContainer i {
+  color: #7c7a77;
+  font-size: 70px;
+}
+#welcome .welcomeContainer .welcomeTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#welcome .welcomeContainer .welcomeTxt .line {
+  max-width: 180px;
+  height: 1px;
+  background-color: #ffc515;
+}
+#welcome .welcomeContainer .welcomeTxt h3 {
+  color: #1b1a1a;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+}
+#welcome .date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#welcome .date h4 {
+  color: #1b1a1a;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#welcome .date p {
+  text-align: center;
+  color: #7e7e7e;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+#welcome .sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+}
+
+#testimonials {
+  min-height: 746px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/review-bg.jpg);
+}
+#testimonials .testimonialsTxt {
+  min-height: 746px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#testimonials .testimonialsTxt i {
+  font-size: 65px;
+  color: #fff;
+}
+#testimonials .testimonialsTxt .testimonialsLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#testimonials .testimonialsTxt .testimonialsLine .line {
+  max-width: 180px;
+  height: 1px;
+  background-color: #ffc515;
+}
+#testimonials .testimonialsTxt .testimonialsLine h3 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 44px;
+  font-weight: 600 !important;
+  color: #fff;
+  line-height: 58px;
+}
+#testimonials .testimonialsTxt p {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 44px;
+  font-weight: 600 !important;
+  color: #fff;
+  line-height: 58px;
+}
+#testimonials .testimonialsTxt .aboutTestimials {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  font-weight: 500 !important;
+  color: #fff;
+  line-height: 32px;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#testimonials .testimonialsTxt span {
+  color: #ffc515;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 600;
+}
+#testimonials .testimonialsTxt span span {
+  color: #fff;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 523px) {
+  #testimonials .testimonialsTxt i {
+    font-size: 20px;
+  }
+  #testimonials .testimonialsTxt .testimonialsLine h3 {
+    font-size: 20px;
+  }
+  #testimonials .testimonialsTxt .aboutTestimials {
+    font-size: 12px;
+  }
+  #testimonials .testimonialsTxt span {
+    font-size: 8px;
+  }
+}
+#ourServices {
+  min-height: 625px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#ourServices .ourServicesTxt {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#ourServices .ourServicesTxt i {
+  color: #7c7a77;
+  font-size: 65px;
+}
+#ourServices .ourServicesTxt .testimonialsLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#ourServices .ourServicesTxt .testimonialsLine .line {
+  max-width: 180px;
+  height: 1px;
+  background-color: #ffc515;
+}
+#ourServices .ourServicesTxt .testimonialsLine h3 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 44px;
+  font-weight: 600 !important;
+  color: #1b1a1a;
+  line-height: 58px;
+}
+#ourServices .breakfast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#ourServices .breakfast i {
+  color: #c49812;
+  font-size: 40px;
+}
+#ourServices .breakfast h4 {
+  color: #1b1a1a;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourServices .breakfast p {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  color: #7c7a77;
+  text-align: center;
+}
+
+#ourMenu {
+  width: 100%;
+  min-height: 1200px;
+  display: flex;
+  justify-content: center;
+}
+#ourMenu .ourMenuTxt {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+}
+#ourMenu .ourMenuTxt i {
+  font-size: 65px;
+  color: #7c7a77;
+}
+#ourMenu .ourMenuTxt .testimonialsLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#ourMenu .ourMenuTxt .testimonialsLine .line {
+  max-width: 180px;
+  height: 1px;
+  background-color: #ffc515;
+}
+#ourMenu .ourMenuTxt .testimonialsLine h3 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 44px;
+  font-weight: 600 !important;
+  color: #1b1a1a;
+  line-height: 58px;
+}
+#ourMenu .ourMenuTxt .breakfastList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  width: 100%;
+  min-height: 80px;
+}
+#ourMenu .ourMenuTxt .breakfastList p {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  color: #1b1a1a;
+  line-height: 24px;
+  cursor: pointer;
+}
+#ourMenu .btn-group button {
+  background-color: #1b1a1a;
+  border: none;
+}
+#ourMenu #productsAll {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#ourMenu #productsAll .miniDiv {
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#ourMenu #productsAll .miniDiv img {
+  width: 80%;
+  border-radius: 15px;
+}
+#ourMenu #productsAll .miniDiv h2 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 20px;
+  font-weight: 600 !important;
+  color: #1b1a1a;
+  line-height: 24px;
+}
+#ourMenu #productsAll .miniDiv .wishAdd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+#ourMenu #productsAll .miniDiv .wishAdd button {
+  color: #ffc515;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+}
+#ourMenu #productsAll .miniDiv .wishAdd .wish {
+  color: #ffc515;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+  font-size: 20px;
+}
+#ourMenu .loadMore {
+  min-height: 180px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourMenu .loadMore button {
+  border: none;
+  border: 2px solid #ffc515;
+  color: #ffc515;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  line-height: 24px;
+  width: 17%;
+  min-height: 50px;
+  transition: 0.5s ease;
+}
+#ourMenu .loadMore button:hover {
+  background-color: #ffc515;
+  color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+  #ourMenu .breakfastList {
+    display: flex;
+  }
+}
+#contactUs {
+  min-height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/footer-bg.jpg);
+}
+#contactUs form {
+  background-color: white;
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+#contactUs form .contactUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contactUs form .contactUs i {
+  font-size: 65px;
+  color: #7c7a77;
+}
+#contactUs form .contactUs .testimonialsLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#contactUs form .contactUs .testimonialsLine .line {
+  max-width: 350px;
+  height: 1px;
+  background-color: #ffc515;
+}
+#contactUs form .contactUs .testimonialsLine h3 {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 44px;
+  font-weight: 600 !important;
+  color: #1b1a1a;
+  line-height: 58px;
+}
+#contactUs form input {
+  border: none;
+  background-color: #EFF4F6;
+  margin-left: 10px;
+}
+#contactUs form input::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+}
+#contactUs form textarea {
+  border: none;
+  background-color: #EFF4F6;
+  margin-left: 10px;
+}
+#contactUs form textarea::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+}
+#contactUs form button {
+  width: 20%;
+  min-height: 67px;
+  background-color: #ffc515;
+  color: #1b1a1a;
+  border: none;
+  font-weight: 700;
+}
+#contactUs .copyright {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contactUs .copyright p {
+  font-size: 14px;
+  color: #777;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 500;
+}
+#contactUs .copyright p span {
+  color: #0e6cd1;
+  transition: 0.5s ease;
+}
+#contactUs .copyright p span:hover {
+  color: #0056b3;
+}
+
+@media screen and (max-width: 430px) {
+  form button {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #contactUs {
+    flex-wrap: wrap;
+  }
+}

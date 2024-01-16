@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    min-height: 93px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    position: absolute;
+    z-index: 1px;
+  
+    .pulse {
+      width: 90%;
+      .pulseLogo {
+        font-family: HelveticaNeueLTPro, sans-serif;
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: 500;
+        color: #fff;
+        span {
+          color: #ffc515;
+          font-family: HelveticaNeueLTPro, sans-serif;
+          font-size: 36px;
+          line-height: 43px;
+          font-weight: 500;
+        }
+      }
+      .pulseList {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 4px;
+      
+        .search{
+          background-color: bisque;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          border: 1px solid #ffc515;
+          background-color: transparent;
+          border-radius: 15px;
+          min-width: 20%;
+          input{
+          background-color: transparent;
+          border: none;
+  
+          }
+          button{
+              border: none;
+              background-color: transparent;
+              i{
+                  color: #fff;
+              }
+          }
+        }
+        li {
+          .home {
+            color: #ffc515 !important;
+          }
+          a {
+            font-family: HelveticaNeueLTPro, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 600;
+            color: #fff !important;
+            transition: 0.5s ease;
+            &:hover {
+              color: #ffc515;
+            }
+            i {
+              transition: 0.5s ease;
+              &:hover {
+                color: #ffc515;
+              }
+            }
+          }
+        }
+        .reservations {
+          width: 40%;
+          display: flex;
+          align-items: center;
+          justify-content: end;
+          li {
+            a {
+              font-family: HelveticaNeueLTPro, sans-serif;
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 600;
+              color: #ffc515 !important;
+              span {
+                font-family: HelveticaNeueLTPro, sans-serif;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 600;
+                color: #fff !important;
+              }
+              i {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+main {
+    #cart {
+      min-height: 600px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      #cartProducts {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        .box {
+          width: 32%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          img {
+            width: 50%;
+            border-radius: 15px;
+          }
+       p {
+            font-family: HelveticaNeueLTPro, sans-serif;
+            font-size: 20px;
+            font-weight: 600 !important;
+            color: #1b1a1a;
+            line-height: 24px;
+          }
+  
+          button {
+            color: #ffc515;
+            border: none;
+            font-weight: 600;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  
+  .copyright {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      font-size: 14px;
+      color: #777;
+      font-family: HelveticaNeueLTPro, sans-serif;
+      font-weight: 500;
+      span {
+        color: #0e6cd1;
+        transition: 0.5s ease;
+        &:hover {
+          color: #0056b3;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  min-height: 93px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222 !important;
+  position: absolute;
+  z-index: 1px;
+}
+nav .pulse {
+  width: 90%;
+}
+nav .pulse .pulseLogo {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+  color: #fff;
+}
+nav .pulse .pulseLogo span {
+  color: #ffc515;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 500;
+}
+nav .pulse .pulseList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 4px;
+}
+nav .pulse .pulseList .search {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #ffc515;
+  background-color: transparent;
+  border-radius: 15px;
+  min-width: 20%;
+}
+nav .pulse .pulseList .search input {
+  background-color: transparent;
+  border: none;
+}
+nav .pulse .pulseList .search button {
+  border: none;
+  background-color: transparent;
+}
+nav .pulse .pulseList .search button i {
+  color: #fff;
+}
+nav .pulse .pulseList li .home {
+  color: #ffc515 !important;
+}
+nav .pulse .pulseList li a {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff !important;
+  transition: 0.5s ease;
+}
+nav .pulse .pulseList li a:hover {
+  color: #ffc515;
+}
+nav .pulse .pulseList li a i {
+  transition: 0.5s ease;
+}
+nav .pulse .pulseList li a i:hover {
+  color: #ffc515;
+}
+nav .pulse .pulseList .reservations {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+nav .pulse .pulseList .reservations li a {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #ffc515 !important;
+}
+nav .pulse .pulseList .reservations li a span {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff !important;
+}
+nav .pulse .pulseList .reservations li a i {
+  color: #fff;
+}
+
+main #cart {
+  min-height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main #cart #cartProducts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #cart #cartProducts .box {
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #cart #cartProducts .box img {
+  width: 50%;
+  border-radius: 15px;
+}
+main #cart #cartProducts .box p {
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-size: 20px;
+  font-weight: 600 !important;
+  color: #1b1a1a;
+  line-height: 24px;
+}
+main #cart #cartProducts .box button {
+  color: #ffc515;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.copyright {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.copyright p {
+  font-size: 14px;
+  color: #777;
+  font-family: HelveticaNeueLTPro, sans-serif;
+  font-weight: 500;
+}
+.copyright p span {
+  color: #0e6cd1;
+  transition: 0.5s ease;
+}
+.copyright p span:hover {
+  color: #0056b3;
+}
